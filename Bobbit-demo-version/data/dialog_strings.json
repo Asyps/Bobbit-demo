@@ -1,0 +1,65 @@
+{
+    "heal": "Našel jsi léčivý lektvar!",
+    "coin": "Našel jsi tento počet mincí: ",
+    "klacek": "Našel jsi klacek (poškození 1)!",
+    "palice": "Našel jsi palici (poškození 2)!",
+    
+    "battle": "Nadešel čas souboje!",
+    "battle_victory": "Zvítězil jsi!",
+    "round": "Kolo číslo: ",
+    "your_turn": "Jsi na tahu!",
+    "actions": "Máš tento počet akcí: ",
+    "enemy_turn": "Nepřítel je na tahu!",
+    "enemy_actions": "Nepřítel má tento počet akcí: ",
+    "attack_success": "Udělil jsi nepříteli poškození: ",
+    "attack_failure": "Nepřítel se útoku vyhnul!",
+    "cant_heal": "Na vyléčení nemáš dostatek lektvarů, neplýtvej časem!",
+    "you_healed": "Doléčil sis nějaké životy: ", 
+    "distraction_success": "Podařilo se ti zmást nepřítele, příští tah bude mít o 1 akci méně.",
+    "distraction_fail": "Nepřítel se zmást nenechal.",
+    "escape_success": "Podařilo se ti utéct bez úhony.",
+    "escape_fail": "Nepřítel ti při útěku udělil nějaké poškození: ",
+    "block_fail": "Nepodařilo se ti vyhnout a nepřítel ti udělil toto poškození: ",
+    "block_success": "Útok odražen!",
+    "enemy_attack": "Nepřítel ti udělil poškození: ",
+    "enemy_heal": "Nepřítel si doléčil nějaké životy: ",
+    "battle_choose": {
+        "greet": "Vyber si akci.",
+        "ask": "Akce:",
+
+        "útok": "Pokusíš se zaútočit.",
+        "vyléčení": "Zkusíš se vyléčit.",
+        "zmatení": "Zkusíš nepřítele zmást.",
+        "útěk": "Vezmeš nohy na ramena."
+    },
+    "block_enemy": {
+        "greet": "Nepřítel na tebe útočí.",
+        "ask": "Chceš se pokusit vyhnout (a mít o jednu akci méně v příštím tahu)?",
+
+        "ano": "Pokusíš se vyhnout útoku.",
+        "ne": "Necháš se trefit."
+    },
+
+    "dead": "Umřel jsi. Pokud chceš hrát znovu, zapni znova program.",
+
+    "gate_locked": "Tato brána je zamčená. Najdi klíč, aby ti ji klíčník odemkl.",
+    "gate_unlocked": "Klíčník ti odemkl bránu.",
+    "gate_key_collect": "Našel jsi klíč od brány! Dej ho klíčníkovi.",
+    "gatekeeper_locked": "Dobrý den, Bobbite. Vidím, že se chystáš vyjít z města. Bohužel jsem si zapoměl klíč v domku. Jsem už starý klíčník, přineseš ho? Děkuji předem.",
+    "gatekeeper_unlocked": "Skvělé, našel jsi mi můj klíč! Teď můžeš projít bránou!",
+
+    "Vorin_first_meet": {
+        "greet": "Zdravím Bobbite, jmenuji se Vorin, a jsem z dálného kraje zvaný Erehor, a chtěl bych si navrátit právo na Erehorský trůn.",
+        "ask": "Pomůžeš mi?",
+        
+        "ano": "Skvěle! Sejdeme se venku za bránou.",
+        "ne": "Ale já tě fakt potřebuju pro úspěch! Až si to rozmyslíš, řekni."
+    },
+
+    "old_friend_village": "Zdravím tě, příteli. Jak se máš? Já skvěle.",
+
+    "wolf_first_fight": "Vhrrhrr (Dostanu tě!)",
+    "villager_scared_of_wolf": "Ahhhhhhhh pomóc, pomóc, vlk! Útočí vlk, přelezl bránu! Najdi si zbraň, pokud ho chceš porazit!",
+    "villager_thankful": "Uff, děkuji ti.",
+    "demo_end": "Právě jsi dokončil demo verzi. Celá hra bude (jestli se bude dodělávat) samozřejmě delší, s lepšíma zbraněma, těžšíma soubojema a složitějšíma zápletkama. Tento herní engine je připraven na více věcí, než je ukázáno v tomto demu.\nHra bude členěna do několika částí, a tato bude považována za turoriál. V hlavní části, která bude výrazně větší, budete muset přecházet mezi oblastma a sbírat věci a zbroj pro bitvy v jiných oblastech. Po splnění tří úkolů můžete jít dál. Na konci hry vás čeká nenasytný drak. Takže třeba to doděláme.\n\n - A\nPS. ostatní skoro nehli prstem."
+}
