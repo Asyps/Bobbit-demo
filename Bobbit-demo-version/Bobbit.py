@@ -31,25 +31,23 @@ while True:
         continue
 
     elif inp == b'w':
-        coords = (map["player"][0], map["player"][1] - 1)
         a, b  = 1, -1
                     
     elif inp == b'a':
-        coords = (map["player"][0] - 1, map["player"][1])
         a, b = 0, -1
 
     elif inp == b's':
-        coords = (map["player"][0], map["player"][1] + 1)
         a, b = 1, 1
             
     elif inp == b'd':
-        coords = (map["player"][0] + 1, map["player"][1])
         a, b = 0, 1
     
     else:
         continue
 
     # move or interact
+     coords = (map["player"][0] + (b if a == 0 else 0), map["player"][1] + (b if a == 1 else 0))
+        
     if coords not in map:
         if not (0 in coords or coords[0] == map["size"][0]-1 or coords[1] == map["size"][1]-1):
             overwrite(*map["player"], "blank", map["size"][1] + 1)
