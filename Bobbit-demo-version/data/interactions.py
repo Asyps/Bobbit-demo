@@ -302,7 +302,13 @@ def combat(difficulty):
                 return 2
         enemy_actions = 2
         round += 1
-     
+
+"""
+return values for interactions():
+0 - don't do anything
+1 - delete the interaction from the map, but keep the item
+2 - remove both the interaction and the item from the map
+"""
 # interaction
 def interaction(name):  
     # mass collectables
