@@ -46,7 +46,7 @@ while True:
         continue
 
     # move or interact
-     coords = (map["player"][0] + (b if a == 0 else 0), map["player"][1] + (b if a == 1 else 0))
+    coords = (map["player"][0] + (b if a == 0 else 0), map["player"][1] + (b if a == 1 else 0))
         
     if coords not in map:
         if not (0 in coords or coords[0] == map["size"][0]-1 or coords[1] == map["size"][1]-1):
