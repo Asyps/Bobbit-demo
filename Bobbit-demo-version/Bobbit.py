@@ -8,7 +8,7 @@ from data.interactions import *
 vt_seq_win()
 
 PlaySound("./data/music/title-theme.wav", SND_FILENAME | SND_LOOP | SND_ASYNC)
-fancy_print("\033cBobbit\n\n\n\n\n\nod: Artur a spol.\nDemo verze\n\nStiskněte cokoliv pro počátek hry ")
+fancy_print("\033cBobbit\n\n\n\n\n\nDemo verze\n\nStiskněte cokoliv pro počátek hry ")
 getch()
 
 fancy_print("Kdysi dávno...")
