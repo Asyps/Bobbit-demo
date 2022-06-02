@@ -303,7 +303,6 @@ def combat(difficulty):
         enemy_actions = 2
         round += 1
      
-
 # interaction
 def interaction(name):  
     # mass collectables
@@ -354,6 +353,4 @@ def interaction(name):
             say("villager_thankful")
         else:
             say("villager_scared_of_wolf")
-
-
     return 0
