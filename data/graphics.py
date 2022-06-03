@@ -40,4 +40,4 @@ def render_map(map):
 
 # overwrites a specific item
 def overwrite(x, y, item, return_y = 1):                                                        # the print below is just a long escape code + item + another escape code
-    print(f"\x9b{str(y + 1)};{str(2*x + 1)}H{graphics_strings[item]}\x9b{str(return_y)};1H", end = "", flush = True)
+    print(f"\x9b{y + 1};{2*x + 1}H{graphics_strings[item]}\x9b{return_y};1H", end = "", flush = True)
